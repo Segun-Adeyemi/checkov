@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 RUN TEST_123="456"        NODE_TLS_REJECT_UNAUTHORIZED=0  python example.py
 RUN TEST_123='456'        NODE_TLS_REJECT_UNAUTHORIZED="0"  python example.py
 RUN TEST_123=456        NODE_TLS_REJECT_UNAUTHORIZED='0'  python example.py
