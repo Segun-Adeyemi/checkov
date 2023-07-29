@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 
 RUN PYTHONHTTPSVERIFY=0 TEST="lol\"" python example.py
 RUN PYTHONHTTPSVERIFY="0" TEST='lol\'' python example.py
