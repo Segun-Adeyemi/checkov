@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 
 RUN NODE_TLS_REJECT_UNAUTHORIZED=0 python example.py
 RUN NODE_TLS_REJECT_UNAUTHORIZED="0" python example.py
