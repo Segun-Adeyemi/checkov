@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 
 RUN GIT_SSL_NO_VERIFY=0 git clone https://github.com/bridgecrewio/checkov.git
 RUN GIT_SSL_NO_VERIFY="0" git clone https://github.com/bridgecrewio/checkov.git
