@@ -15,7 +15,7 @@ Full list of Dockerfile policies checks can be found [here](https://www.checkov.
 ### Example misconfigured Dockerfile
 
 ```dockerfile
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
