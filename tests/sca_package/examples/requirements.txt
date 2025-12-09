@@ -1,3 +1,4 @@
-django==1.2
+django==4.2.27
 flask==0.6
 requests==2.26.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
